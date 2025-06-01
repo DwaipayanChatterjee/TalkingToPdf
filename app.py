@@ -95,7 +95,7 @@ def main():
                 # create conversation chain
                 st.session_state.conversation = get_conversation_chain(
                     vectorstore)
-        st.write("---")
+        st.write("----")
         st.write("AI App created by Dwaipayan Chatterjee")
 
 
